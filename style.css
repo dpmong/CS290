@@ -1,0 +1,37 @@
+table {
+	border-style:solid;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+th, td {
+	border: 1px solid black;
+}
+
+.outer-content {
+		background-color: pink;
+		position: relative;
+		top: 20px;
+		width: 75%;
+		height: 50px;
+}
+
+.inner-content {
+		background-color: deepskyblue;
+		position: relative;
+		top: 25%;
+		width: 75%;
+		height: 50%;
+		margin: 0 auto;
+		text-align: center;
+}
+
+
+/* Extra Credit Section */
+tbody tr:nth-child(odd) {
+	background-color: #99FF66;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #A0A0A0;
+}
